@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+.spacer2{
+    height: 50px;
+}
+#menu
+{
+
+    display: inline;
+    margin-left: 1100px;
+}
+#itm
+{
+    margin-right: 20px;
+    color: gray;
+    display: inline-block;
+    transition: .5s all;
+}
+#itm:hover{
+    cursor: pointer;
+    color: #333333;
+}
+img{
+    display: block;
+    margin-top: 50px;
+    margin-left: 485px;
+}
+.title{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    /* background: red; */
+    margin-bottom: 0;
+    font-size: 30px;
+}
+.about{
+    text-align: center;
+    color:gray;
+    /* background: red; */
+    padding: 0;
+}
+.desc{
+    color: grey;
+    text-align: center;
+    font-weight: lighter;
+    /* background: red;; */
+}
+.para{
+    font-style: italic;
+    color: #262626;
+}
+li{
+    color: #333333;
+    list-style: none;
+}
+.bar
+{
+    overflow: hidden;
+    border-radius: 5px;
+    background: #d3d3d3;
+    display: block;
+    height: 7px;
+    border: 1px solid white;
+}
+.bar span
+{
+    height: 7px;
+    float: left;
+}
+.one
+{
+    width: 70%;
+    background: limegreen;
+    animation: one 2s;
+}
+.two
+{
+    width: 97%;
+    background: limegreen;
+    animation: two 2s;
+}
+.three
+{
+    width: 50%;
+    background: limegreen;
+    animation: three 2s;
+}
+.four
+{
+    width: 80%;
+    animation: four 2s;
+    /* background:  */
+    background: limegreen;
+    
+}
+.five
+{
+    width: 95%;
+    animation: five 2s;
+    background: limegreen;
+
+}
+
+@keyframes one{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes two{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 97%;
+    }
+}
+@keyframes three{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes four{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes five{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+hr{
+    color: #333333;
+}
+.spacer{
+    height: 100px;
+}
+.hobby{
+    color: #9f00a7;
+    font-size: larger;
+}
